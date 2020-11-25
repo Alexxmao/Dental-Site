@@ -4,5 +4,30 @@ export const MenuItems = [
 		path: "/invisalign",
 		cName: "dropdown-link",
 	},
+	{
+		title: "Invisalign®",
+		path: "/invisalign",
+		cName: "dropdown-link",
+	},
+	{
+		title: "Invisalign®",
+		path: "/invisalign",
+		cName: "dropdown-link",
+	},
+	{
+		title: "Invisalign®",
+		path: "/invisalign",
+		cName: "dropdown-link",
+	},
+	{
+		title: "Invisalign®",
+		path: "/invisalign",
+		cName: "dropdown-link",
+	},
+	{
+		title: "Invisalign®",
+		path: "/invisalign",
+		cName: "dropdown-link",
+	},
 	// this is for whats in the drop down menu
 ];

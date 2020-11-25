@@ -6,17 +6,22 @@ import Services from "./components/pages/Services";
 import Home from "./components/pages/Home";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 
-import "./App.css";
 function App() {
 	return (
-		<Router>
-			<Navbar />
-			<Switch>
-				<Route path='/' exact component={Home} />
-				<Route path='/services' exact component={Services} />
-			</Switch>
-		</Router>
+		<div className='page-container'>
+			<Router>
+				<Navbar />
+				<Switch>
+					<Route path='/' exact component={Home} />
+					<Route path='/services' component={Services} />
+				</Switch>
+			</Router>
+			<div className='footer'>
+				<Footer />
+			</div>
+		</div>
 	);
 }
 

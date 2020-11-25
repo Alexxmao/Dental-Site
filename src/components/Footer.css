@@ -1,0 +1,28 @@
+.main-footer {
+	color: white;
+	background-color: black;
+	padding-top: 1em;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	left: 0;
+}
+
+.col-header {
+	font-size: 18px;
+}
+.col-list {
+	list-style: none;
+}
+.row {
+	font-size: 15px;
+	column-count: 3;
+	margin: 5px;
+	padding-bottom: 1em;
+}
+
+.bottombottom {
+	text-align: center;
+	padding: 1em;
+}
