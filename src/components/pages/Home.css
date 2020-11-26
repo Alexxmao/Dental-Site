@@ -1,0 +1,51 @@
+.intro
+{
+ padding-left: 30px;
+ padding-bottom: 200px;
+ padding: 200px;
+}
+.intro-p{
+    width: 200px;
+   
+    padding: 15px;
+    
+   
+}
+.office-offers{
+ padding-left: 30px;
+ 
+ padding: 200px;
+ background-color: cyan;
+}
+.office-offers-p{
+    
+    padding: 15px;
+}
+
+
+.meet{
+  background: chartreuse;
+    text-align: center;
+    padding-left: 30px;
+ padding-bottom: 200px;
+ padding: 200px;
+}
+
+ /* mobile */
+ @media screen and (max-width: 960px){
+    .intro,
+    .office-offers
+    {
+      display: flex;
+      justify-content: center;
+        align-items: center;
+    }
+
+.office-offers-p{
+   display: block;
+   justify-content: safe;
+   align-items: center;
+}
+
+
+}

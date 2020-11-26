@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "./Button";
+import { Button } from "./Book-Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Dropdown from "./Dropdown";
@@ -39,7 +39,12 @@ function Navbar() {
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className='nav-item'>
 						<Link to='/' className='nav-links' onClick={closeMobileMenu}>
-							home
+							Home
+						</Link>
+					</li>
+					<li className='nav-item'>
+						<Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+							About
 						</Link>
 					</li>
 					<li
@@ -52,22 +57,22 @@ function Navbar() {
 							className='nav-links'
 							onClick={closeMobileMenu}
 						>
-							services <i className='fas fa-caret-down' />
+							Services <i className='fas fa-caret-down' />
 						</Link>
 						{dropdown && <Dropdown />}
 					</li>
 					<li className='nav-item'>
 						<Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-							contact
+							Contact
 						</Link>
 					</li>
 					<li className='nav-item'>
 						<Link
-							to='/new-patients'
+							to='/book-now'
 							className='nav-links-mobile'
 							onClick={closeMobileMenu}
 						>
-							new patients
+							Book Now
 						</Link>
 					</li>
 				</ul>

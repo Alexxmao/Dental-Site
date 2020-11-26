@@ -1,33 +1,18 @@
 export const MenuItems = [
 	{
-		title: "Invisalign®",
-		path: "/invisalign",
+		title: "General Dentistry",
+		path: "/services/general-dentistry",
 		cName: "dropdown-link",
 	},
 	{
-		title: "Invisalign®",
-		path: "/invisalign",
+		title: "Cosmetic Dentistry",
+		path: "/services/cosmetic-dentistry",
 		cName: "dropdown-link",
 	},
 	{
-		title: "Invisalign®",
-		path: "/invisalign",
+		title: "Specialty Dentistry",
+		path: "/service/specialty-dentistry",
 		cName: "dropdown-link",
-	},
-	{
-		title: "Invisalign®",
-		path: "/invisalign",
-		cName: "dropdown-link",
-	},
-	{
-		title: "Invisalign®",
-		path: "/invisalign",
-		cName: "dropdown-link",
-	},
-	{
-		title: "Invisalign®",
-		path: "/invisalign",
-		cName: "dropdown-link",
-	},
+	}
 	// this is for whats in the drop down menu
 ];

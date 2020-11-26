@@ -1,0 +1,83 @@
+.office-background{
+   
+    padding-left: 30px;
+    padding-top: 50px;
+ 
+ 
+ background-color: cyan;
+}
+
+.office-header{
+padding-bottom: 50px;
+padding-left: 150px;
+}
+
+
+.office-container-card {
+    background: transparent;
+   padding-left: 200px;
+    width: 1000px;
+    height: 200px;
+    text-decoration: none;
+
+    
+    
+  }
+
+  .office-container {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  
+  .office-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  .office-container-card-info{
+      padding-bottom: 50px;
+  }
+
+  .office-container-card-blurb{
+    
+    padding-top: 0px;
+  }
+
+  @media screen and (max-width: 960px) {
+   
+    .office-header{
+        display: flex;
+      justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-bottom: 50px;
+        padding-right: 25px;
+            
+
+
+    }
+    .office-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .office-container-card {
+      width: 90%;
+    }
+  
+    .office-wrapper {
+      margin: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    
+   
+  }

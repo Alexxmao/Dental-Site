@@ -16,7 +16,27 @@ module.exports = {
             { 
                 test: /\.css$/, 
                 use: ['style-loader', 'css-loader'] 
-            }
+            },
+            {
+                test: /\.(gif|jpe?g|webp|png)$/i,
+                use: [
+                  'file-loader',
+                  {
+                    loader: 'image-webpack-loader',
+                    options: {
+                      mozjpeg: {
+                        enabled: false
+                      },
+                      optipng: {
+                        enabled: false
+                      },
+                      pngquant: {
+                        enabled: false
+                      }
+                    }
+                  },
+                ],
+              }
         ]
     },
     mode: 'development',

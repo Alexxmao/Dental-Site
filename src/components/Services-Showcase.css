@@ -1,0 +1,127 @@
+.service-section {
+    padding: 100px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .service-container-card {
+    background: #ffffff;
+    box-shadow: 0 6px 20px #dedede;
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .service-container-card:nth-child(2){
+    background: #fafafa;
+    margin: 0 24px;
+    
+  }
+  
+  .service-container-card:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+    color: #1c2237;
+    
+  }
+  
+
+  
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+  }
+  
+  .service-heading {
+    color: #1c2237;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service-container-cardInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    color: #525252;
+  }
+  
+  .service-container-cardInfo h3 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  
+  .service-container-cardInfo h4 {
+    font-size: 40px;
+  }
+  
+  .service-container-cardInfo p {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .service-container-features {
+    margin: 16px 0 32px;
+    list-style: none;
+  }
+  
+  .service-container-features li {
+    margin-bottom: 10px;
+  }
+  
+  .service-container-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+    color: #525252;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .service-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .service-container-card {
+      width: 90%;
+    }
+  
+    .service-wrapper {
+      margin: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-container-card:nth-child(2){
+      background: #fafafa;
+      margin:  24px;
+      
+    }
+  
+    .service-container-card:hover {
+      transform: none;
+    }
+  }

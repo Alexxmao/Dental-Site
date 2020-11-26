@@ -1,12 +1,12 @@
 import React from 'react'
-import './Button.css';
+import './About-Button.css';
 import { Link } from 'react-router-dom';
 
 export function Button(){
 return(
-    <Link to='new-patients'>
-        <button className='btn'>
-            New Patients
+    <Link to='/about'>
+        <button className='abtn'>
+            Meet the Team!
         </button>
     </Link>
 );
