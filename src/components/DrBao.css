@@ -1,0 +1,20 @@
+.main{
+    padding: 50px;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+
+.title{
+    padding-bottom: 25px;
+}
+.text{
+    padding-left: 25px;
+}
+
+.picture{
+    width: 25%;
+    height: 25%;
+}
+
+

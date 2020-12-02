@@ -5,7 +5,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'index_bundle.js'
+        filename: 'index_bundle.js',
+        publicPath: '/'
     },
     module: {
         rules: [
@@ -18,26 +19,20 @@ module.exports = {
                 use: ['style-loader', 'css-loader'] 
             },
             {
-                test: /\.(gif|jpe?g|webp|png)$/i,
+                test: /\.(jpg|png)$/i,
                 use: [
-                  'file-loader',
                   {
-                    loader: 'image-webpack-loader',
-                    options: {
-                      mozjpeg: {
-                        enabled: false
-                      },
-                      optipng: {
-                        enabled: false
-                      },
-                      pngquant: {
-                        enabled: false
-                      }
-                    }
-                  },
-                ],
+                  loader: 'url-loader',
+                  options: {
+                    limit: 9999999999,
+                  }
+                }
+              ]
               }
         ]
+    },
+    devServer: {
+historyApiFallback: true,
     },
     mode: 'development',
     plugins: [

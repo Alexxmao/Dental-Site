@@ -1,0 +1,14 @@
+.sliderimg{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.imagetitle{
+    text-align: center;
+    padding: 50px;
+} 
+.dentists-title{
+    padding-left: 175px;
+    padding-top: 50px;
+}
